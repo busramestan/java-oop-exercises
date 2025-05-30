@@ -20,6 +20,11 @@ public class Main {
 
         Car myCar = new Car();  //Car nesnesi oluşturma
 
+        myCar.speed = 120; // Vehicle sınıfından gelen speed özelliğini kullanma
+
+        System.out.println("Arabanın hızı: " + myCar.speed + " km/s");
+
+
        //Nesne oluşturduktan sonra setter metotları ile verileri ata
 
         myCar.setBrand("Ford");
