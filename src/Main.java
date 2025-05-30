@@ -19,6 +19,8 @@ public class Main {
 
 
         Car myCar = new Car();  //Car nesnesi oluşturma
+        myCar.start(); // Vehicle sınıfından gelen start metodunu kullanma
+
 
         myCar.speed = 120; // Vehicle sınıfından gelen speed özelliğini kullanma
 

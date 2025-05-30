@@ -1,4 +1,8 @@
 public class Car extends Vehicle {
+    @Override
+    public void start() {
+        System.out.println("Araba çalışıyor...");
+    }
 
 //    String brand;
 //    String model;
