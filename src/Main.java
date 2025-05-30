@@ -44,7 +44,7 @@ public class Main {
         Animal myCat = new Cat();
         Animal myDog = new Dog();
 
-        // Metot çağrıları - Polymorphism burada
+        // Metot çağrıları , Polymorphism burada
         myCat.makeSound();
         myDog.makeSound();
 
