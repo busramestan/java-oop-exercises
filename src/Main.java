@@ -3,11 +3,13 @@
 public class Main {
     public static void main(String[] args) {
 
-        Car myCar = new Car();
+        //Constructor ile nesne oluşturma
+        Car myCar = new Car("Volskwagen","Passat", 2025);
 
-        myCar.marka="Honda";
-        myCar.model="Civic";
-        myCar.year=2025;
+
+//        myCar.marka="Honda";
+//        myCar.model="Civic";
+//        myCar.year=2025;
 
         System.out.println("Marka: " + myCar.marka);
         System.out.println("Model: " + myCar.model);
