@@ -66,5 +66,13 @@ public class Main {
         Student student = new Student("Büşra", 25, "University");
         student.showInfo();
 
+        //Abstract sınıf ve metot örneği
+        //Shape sınıfından Circle ve Rectangle sınıflarını türettik
+        Shape circle = new Circle();
+        Shape rectangle = new Rectangle();
+
+        circle.draw();
+        rectangle.draw();
+
     }
 }
