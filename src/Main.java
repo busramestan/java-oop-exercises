@@ -57,6 +57,11 @@ public class Main {
         System.out.println("İki sayının toplamı: " + result1);
         System.out.println("Üç sayının toplamı: " + result2);
 
+        //Nesne oluturmadan sınıf adıyla static metot cagrısı
+        int result = Multiply.multiply(10,10);
+
+        System.out.println("Çarpım Sonucu: " +result);
+
 
     }
 }
