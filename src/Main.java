@@ -39,5 +39,14 @@ public class Main {
         System.out.println("Model: " + myCar.getModel());
         System.out.println("Yıl: " + myCar.getYear());
 
+
+        // Animal türünde değişkenler, farklı nesneler
+        Animal myCat = new Cat();
+        Animal myDog = new Dog();
+
+        // Metot çağrıları - Polymorphism burada
+        myCat.makeSound();
+        myDog.makeSound();
+
     }
 }
