@@ -48,5 +48,15 @@ public class Main {
         myCat.makeSound();
         myDog.makeSound();
 
+        //Method Overloading örneği
+        Calculator calc = new Calculator();
+        int result1 = calc.add(3,5);
+
+        int result2 = calc.add(4,5,6);
+
+        System.out.println("İki sayının toplamı: " + result1);
+        System.out.println("Üç sayının toplamı: " + result2);
+
+
     }
 }
