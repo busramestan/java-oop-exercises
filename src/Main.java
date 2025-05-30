@@ -62,6 +62,9 @@ public class Main {
 
         System.out.println("Çarpım Sonucu: " +result);
 
+        //super ve this örneği
+        Student student = new Student("Büşra", 25, "University");
+        student.showInfo();
 
     }
 }
