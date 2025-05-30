@@ -41,12 +41,12 @@ public class Main {
 
 
         // Animal türünde değişkenler, farklı nesneler
-        Animal myCat = new Cat();
-        Animal myDog = new Dog();
+//        Animal myCat = new Cat();
+//        Animal myDog = new Dog();
 
         // Metot çağrıları , Polymorphism burada
-        myCat.makeSound();
-        myDog.makeSound();
+//        myCat.makeSound();
+//        myDog.makeSound();
 
         //Method Overloading örneği
         Calculator calc = new Calculator();
@@ -73,6 +73,14 @@ public class Main {
 
         circle.draw();
         rectangle.draw();
+
+        //Interface örneği
+
+        AnimalInterface cat = new Cat();
+        AnimalInterface dog = new Dog();
+
+        cat.sound();
+        dog.sound();
 
     }
 }
