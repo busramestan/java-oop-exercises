@@ -95,5 +95,6 @@ public class Main {
         fruits.add("Grapes");
 
         System.out.println(fruits);
+
     }
 }
