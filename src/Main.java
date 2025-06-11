@@ -1,4 +1,5 @@
 import java.util.HashSet;
+import java.util.Scanner;
 import java.util.Set;
 
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
@@ -95,6 +96,21 @@ public class Main {
         fruits.add("Grapes");
 
         System.out.println(fruits);
+
+        Scanner input = new Scanner(System.in);
+        System.out.println("Birinci sayıyı girin:");
+
+        int firtNumber = input.nextInt();
+
+        System.out.println("İkinci sayıyı girin: ");
+        int secondNumber = input.nextInt();
+
+        try {
+            int sonuc = firtNumber /secondNumber;
+            System.out.println("Sonuç:" +sonuc);
+        }catch (ArithmeticException e) {
+            System.out.println("Bir sayı sıfıra bölünemez!!");
+        }
 
     }
 }
