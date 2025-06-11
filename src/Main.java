@@ -95,20 +95,20 @@ public class Main {
 
         System.out.println(fruits);
 
-        Scanner input = new Scanner(System.in);
-        System.out.println("Birinci sayıyı girin:");
-
-        int firtNumber = input.nextInt();
-
-        System.out.println("İkinci sayıyı girin: ");
-        int secondNumber = input.nextInt();
-
-        try {
-            int sonuc = firtNumber /secondNumber;
-            System.out.println("Sonuç:" +sonuc);
-        }catch (ArithmeticException e) {
-            System.out.println("Bir sayı sıfıra bölünemez!!");
-        }
+//        Scanner input = new Scanner(System.in);
+//        System.out.println("Birinci sayıyı girin:");
+//
+//        int firtNumber = input.nextInt();
+//
+//        System.out.println("İkinci sayıyı girin: ");
+//        int secondNumber = input.nextInt();
+//
+//        try {
+//            int sonuc = firtNumber /secondNumber;
+//            System.out.println("Sonuç:" +sonuc);
+//        }catch (ArithmeticException e) {
+//            System.out.println("Bir sayı sıfıra bölünemez!!");
+//        }
 
         List<Integer> numbers = new ArrayList<>();
 
@@ -120,6 +120,15 @@ public class Main {
 
         System.out.println("Listede bulunan sayılar :");
         numbers.forEach(number -> System.out.println(number));
+
+        int var = 10;
+        Integer varObject = var; // Autoboxing
+        int primitiveVar = varObject; //Unboxing
+
+        System.out.println("int var: " + var);
+        System.out.println("Integer varObject: " + varObject);
+        System.out.println("int primitiveVar: " + primitiveVar);
+
 
     }
 }
