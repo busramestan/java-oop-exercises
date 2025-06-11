@@ -1,3 +1,6 @@
+import java.util.HashSet;
+import java.util.Set;
+
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
@@ -85,5 +88,12 @@ public class Main {
         Gun bugun = Gun.CUMA;
         System.out.println("Bugün günlerden "+bugun);
 
+        Set <String> fruits = new HashSet<>();
+        fruits.add("Apple");
+        fruits.add("Apple"); // Duplicate, will not be added
+        fruits.add("Banana");
+        fruits.add("Grapes");
+
+        System.out.println(fruits);
     }
 }
