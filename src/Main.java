@@ -1,6 +1,4 @@
-import java.util.HashSet;
-import java.util.Scanner;
-import java.util.Set;
+import java.util.*;
 
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
@@ -111,6 +109,17 @@ public class Main {
         }catch (ArithmeticException e) {
             System.out.println("Bir sayı sıfıra bölünemez!!");
         }
+
+        List<Integer> numbers = new ArrayList<>();
+
+        numbers.add(10);
+        numbers.add(15);
+        numbers.add(20);
+        numbers.add(25);
+        numbers.add(30);
+
+        System.out.println("Listede bulunan sayılar :");
+        numbers.forEach(number -> System.out.println(number));
 
     }
 }
