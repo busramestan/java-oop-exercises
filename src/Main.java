@@ -82,5 +82,8 @@ public class Main {
         cat.sound();
         dog.sound();
 
+        Gun bugun = Gun.CUMA;
+        System.out.println("Bugün günlerden "+bugun);
+
     }
 }
